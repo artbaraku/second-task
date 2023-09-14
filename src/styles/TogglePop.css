@@ -1,0 +1,51 @@
+.pop-up {
+    margin-left: 50px;
+    width: 135%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+    .question-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 65%;
+      border: 1px solid #ccca;
+      align-items: center;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+      .first-row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+ 
+      }
+    
+  .popup-text {
+    margin-left: -110px;
+    padding: 25px;
+    border-top: 1px solid #eee;
+    color: darkgray;
+  }
+
+  .tittle {
+    font-size: 18px;
+  }
+
+ 
+  @media screen and (max-width: 768px) {
+    .pop-up {
+      margin-left: 0; 
+    }
+  
+    .question-box {
+      width: 95%; 
+    }
+    
+    .popup-text {
+      margin-left: 0; 
+    }
+  }

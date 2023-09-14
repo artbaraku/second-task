@@ -1,0 +1,107 @@
+    .faq {
+          width: 90%;
+          margin: 20px 50px;
+          font-family: 'Poppins', sans-serif;
+        }
+        .faq-content{
+          border: 1px solid #cecece;
+          padding: 15px 90px;
+          margin-top: 30px;
+        }
+        h4{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: 25px;
+        }
+        .faq-icon{
+         margin-right: -40px;
+         font-size: 50px;
+         cursor:pointer;
+        }
+        .faq-answer{   
+          width: 90%;
+          margin: 20px 0px;
+        }
+        .faq-dropdown{
+          width: 118%;
+          border-bottom: 1px solid #cecece;
+          margin-left: -30px;
+      
+        }
+        h5{
+          margin-top: 20px;
+          margin-left: -45px;  
+          font-size: large;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: max(15px,1.3);
+        }
+        .arrow {
+          display: block;
+          cursor: pointer;
+          font-size: 30px;
+        }
+        .footer{
+          margin-left: -45px;
+          font-family: Georgia, Times, 'Times New Roman', serif;
+          color: #d7d0d0;
+          font-size: 20px;
+        }
+        
+    .title-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        font-size: 17px;
+        margin-top: 5px;
+        color: #8F8F8F;
+    }
+
+    @media screen and (max-width: 768px) {
+      .faq {
+        width: 95%; 
+        margin: 10px 20px; 
+      }
+    
+      .faq-content {
+        padding: 15px 20px; 
+      }
+    
+      h4 {
+        font-size: 20px; 
+      }
+    
+      .faq-icon {
+        margin-right: -20px; 
+        font-size: 40px; 
+      }
+    
+      .faq-answer {
+        width: 95%; 
+        margin: 10px 0; 
+      }
+    
+      .faq-dropdown {
+        width: 100%; 
+        margin-left: 0; 
+      }
+    
+      h5 {
+        margin-top: 10px; 
+        margin-left: 0; 
+        font-size: 18px; 
+      }
+    
+      .arrow {
+        font-size: 24px; 
+      }
+    
+      .footer {
+        margin-left: 0; 
+        font-size: 18px; 
+      }}
