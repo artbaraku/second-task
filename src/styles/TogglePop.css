@@ -35,17 +35,53 @@
     font-size: 18px;
   }
 
- 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 1300px) {
     .pop-up {
-      margin-left: 0; 
+        margin-left: 50px; 
+        width: 100%; 
+        height: auto; 
     }
-  
+
     .question-box {
-      width: 95%; 
+        width: 90%; 
     }
-    
+
     .popup-text {
-      margin-left: 0; 
+        margin-left: 0; 
+        padding: 15px; 
+        white-space: normal; 
+        overflow: auto; 
     }
+
+    .tittle {
+        font-size: 16px; 
+    }
+}
+
+
+@media (max-width: 767px) {
+  .pop-up {
+    margin-top: 50px;
+      margin-left: 10px; 
+      width: 100%; 
+      height: auto; 
   }
+
+  .question-box {
+      width: 90%; 
+  }
+
+  .popup-text {
+      margin-left: 0; 
+      padding: 15px; 
+      white-space: normal; 
+      overflow: auto; 
+  }
+
+  .tittle {
+      font-size: 16px; 
+  }
+}
+
+
+

@@ -5,7 +5,7 @@ import '../styles/ReactTabs.css'
   function ReactTabs() {
     return (
       <Tabs className="Tabs">
-        <TabList className="TabList">
+        <TabList onClick={"border: none"} className="TabList">
           {TabsData.map((tab, index) => (
             <Tab key={index} className="Tab">
               {tab.name}
