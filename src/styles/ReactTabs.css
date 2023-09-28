@@ -67,23 +67,25 @@
   @media (max-width: 990px) {
     .TabList {
       display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px;
       place-items: center;
+ 
     }
   }
 
- @media (max-width: 665px) {
+ @media (max-width: 655px) {
   .TabList {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    place-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+    
   }
  }
 
- @media (max-width: 465px) {
+ @media (max-width: 570px) {
   .TabList {
-    display: grid;
-    grid-template-columns:50% 50%;
-    place-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
   }
  }
