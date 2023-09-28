@@ -76,9 +76,8 @@
  @media (max-width: 655px) {
   .TabList {
     display: flex;
-    flex-wrap: wrap;
-    margin: 1px;
-    
+    /* flex-wrap: wrap; */
+    gap: 10px;
   }
  }
 
@@ -86,6 +85,6 @@
   .TabList {
     display: flex;
     flex-wrap: wrap;
-    margin: 1px;
+    margin-left: -10px;
   }
  }
